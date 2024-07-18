@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./imgs/bg-repeat.jpg" alt="Imagem de fundo">
+    <main>
+        <section class="projeto-formulario">
+            <div class="doubts-left">
+                <h2>Ficou com dúvida? Nos mande uma mensagem!</h2>
+                <p>Caso tenha ficado com alguma dúvida, nos mande uma mensagem e entraremos em contato em até 24h.</p>
+            </div>
+
+            <div class="campos">
+                <ul  id="form" class="items">
+                    <li class="item-campo">
+                        <input id="name" class="answer" type="text" placeholder="Nome completo *">
+                        </br>
+                        <a class="campoObrigatorio">Campo obrigatório</a>
+                    </li>
+
+                    <li class="item-campo">
+                        <input id="email" class="answer" type="email" placeholder="Email *">
+                        <a>Campo obrigatório</a>
+                    </li>
+
+                    <li class="item-campo ">
+                        <input id="number" class="answer " type="number" placeholder="Telefone *">
+                        <a>Campo obrigatório</a>
+                    </li>
+
+                    <li class="item-campo">
+                        <textarea class="answer" id="msg" placeholder="Mensagem *"></textarea> 
+                        <a>Campo obrigatório</a>
+                    </li>
+
+                    <p class="note"><b>*Campos obrigatórios</b></p>
+
+                    <button id="btn" type="submit">Enviar</button>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

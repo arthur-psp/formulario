@@ -1,0 +1,6 @@
+@media(max-width:1105px){
+    .projeto-formulario{
+        display: flex;
+        flex-direction: column;
+    }
+}

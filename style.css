@@ -29,7 +29,8 @@ img{
     width: 300px;
     height: 111px;
     color: #ffffff;
-    margin: 30px;
+    margin-inline: 100px;
+    margin-bottom: 50px;
     font-weight: 400px;
     font-size: 15px;
 }
@@ -47,7 +48,7 @@ img{
     background-color: #ffffff;
     width: 350px;
     border-radius: 5px;
-    margin-left: 50px;
+    margin-left: px;
 }
 
 .projeto-formulario .items .item-campo .answer{
